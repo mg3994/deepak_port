@@ -44,7 +44,7 @@ const NavMobile = ({ closeNav, showNav }: Props) => {
         <XMarkIcon
           onClick={closeNav}
           tabIndex={0}
-          className="absolute top-[-1.4rem] right-[1.4rem] w-[2.2rem] h-[2.2rem] text-white"
+          className="absolute top-[-1.4rem] right-[1.4rem] w-[2.2rem] h-[2.2rem] text-white x-icon"
         />
       </ul>
     </div>

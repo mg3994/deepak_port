@@ -24,6 +24,13 @@
     background-position: center;
     clip-path: polygon(0 0,100% 0,100% 95%, 0% 100%);
   }
+  .x-icon {
+    cursor: pointer; /* Set default cursor to pointer */
+  }
+  
+  .x-icon:hover {
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
   
 }
 
