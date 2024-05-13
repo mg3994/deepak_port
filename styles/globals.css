@@ -1,8 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&family=Poppins:wght@200;300;400;700;800&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
+
+/* @layer components { 
+  .nav__link {
+  @apply relative text-x1 w-fit block after:block after:content-[''] after:absolute after:h-[3px]
+  after:bg-yellow-400 text-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition
+  after:duration-300 after:origin-right
+  }
+} */
+@layer components {
+  .nav__link {
+    @apply relative text-xl w-fit block after:block after:content-[''] after:absolute after:h-[3px]  after:bg-yellow-400 text-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition
+    after:duration-300 after:origin-right 
+    
+  }
+
+  
+}
+
+/* @layer components {
+  .nav__link {
+    @apply relative text-x1 w-fit block;
+    content: '';
+    position: absolute;
+    height: 3px;
+    background-color: yellow-400;
+    color: white;
+    width: full;
+    transform: scaleX(0);
+    transition: transform 300ms ease-out;
+    transform-origin: right;
+  }
+
+  .nav__link:hover::after {
+    transform: scaleX(1);
+  }
+} */
+
+
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -30,4 +69,4 @@ body {
   .text-balance {
     text-wrap: balance;
   }
-}
+} */
