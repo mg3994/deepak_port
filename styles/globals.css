@@ -31,7 +31,12 @@
   .x-icon:hover {
     cursor: pointer; /* Change cursor to pointer on hover */
   }
-  
+  .heading__mini {
+    @apply text-[17px] text-white opacity-75
+  }
+  .heading__primary {
+    @apply mt-[0.6rem] p-2 sm:p-0 leading-[3.5rem] text-white text-[27px] md:text-[30px] lg:text-[38px] xl:text-[45px]
+  }
 }
 
 /* @layer components {
